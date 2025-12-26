@@ -16,12 +16,12 @@ const languages = [
   { code: "hi-IN", name: "Hindi (India)" },
 ];
 
-languages.forEach(({ code, name }) => {
-  const option = document.createElement("option");
-  option.value = code;
-  option.textContent = name;
-  languageSelect.appendChild(option);
-});
+// languages.forEach(({ code, name }) => {
+//   const option = document.createElement("option");
+//   option.value = code;
+//   option.textContent = name;
+//   languageSelect.appendChild(option);
+// });
 
 let voices = [];
 function loadVoices() {
